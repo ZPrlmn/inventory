@@ -1,12 +1,11 @@
-export default function InventoryLayout({
-    children, // will be a page or nested layout
+export default function posLayout({
+    children,
   }: {
     children: React.ReactNode
   }) {
     return (
       <section>
         {children}
-        <nav></nav>
       </section>
     )
   }
