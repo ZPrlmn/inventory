@@ -8,7 +8,7 @@ export default function Nav () {
     'py-2',
     'px-4',
     'rounded-lg',
-    "hover:bg-sky-800"
+    "hover:bg-sky-800",
   ].join(' ');
 
   return(
