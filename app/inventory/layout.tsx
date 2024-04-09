@@ -4,7 +4,7 @@ export default function InventoryLayout({
     children: React.ReactNode
   }) {
     return (
-      <section>
+      <section className="h-full w-screen">
         {children}
         <nav></nav>
       </section>

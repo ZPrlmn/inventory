@@ -1,9 +1,12 @@
 export default function POS() {
-    const inputFormat = "ml-2 text-black rounded-md"
+    //styles
+    const inputFormat = "ml-2 rounded-md"
     const inputContainer = "my-2"
+    //styles
     return (
-        <div className="flex justify-center mt-20">
-            <form className="container bg-gray-950 py-5 px-10 rounded-2xl">
+        <div className="justify-center">
+            <h1 className="text-3xl ml-5 my-10">Point of Sales</h1>
+            <form className="mx-40 border-2 border-slate-800 py-5 px-10 rounded-2xl">
                 <div className={inputContainer}>
                     <label htmlFor="customerName">Customer Name: </label>
                     <input type="text" id="customerName" className={inputFormat} />

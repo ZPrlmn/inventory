@@ -25,7 +25,7 @@ export default function inventory () {
             possibleIncome: 800*30
         }
     ])
-    const tableRow = "bg-gray-900 border-blue-950 border-2 px-5"
+    const tableRow = "dark:bg-gray-900 border-slate-600 dark:border-blue-950 border-2 px-5 dark:text-sky-400"
     const buttonFormat = [
         "text-center",
         "border-2",
@@ -36,13 +36,14 @@ export default function inventory () {
         "hover:py-2",
         "hover:px-4",
         "hover:m-0",
+        "text-white"
       ].join(' ');
     return (
         <div>
-            <h1>Inventory Clients</h1>
+            <h1 className="text-3xl ml-5 my-10">Inventory</h1>
             <table className="table-auto min-w-min mx-auto">
                 <thead>
-                    <tr className="bg-gray-900 border-blue-950 border-2">
+                    <tr className={tableRow}>
                         <th className={tableRow}>ID</th>
                         <th className={tableRow}>From</th>
                         <th className={tableRow}>Quantity</th>

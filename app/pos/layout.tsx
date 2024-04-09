@@ -4,7 +4,7 @@ export default function posLayout({
     children: React.ReactNode
   }) {
     return (
-      <section>
+      <section className="h-full w-full">
         {children}
       </section>
     )
