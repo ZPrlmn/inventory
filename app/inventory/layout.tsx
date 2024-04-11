@@ -6,7 +6,6 @@ export default function InventoryLayout({
     return (
       <section className="h-full w-screen">
         {children}
-        <nav></nav>
       </section>
     )
   }

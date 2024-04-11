@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ChartValue = ({ priceVal }: { priceVal: number }) => {
+const RicePriceChart = ({ priceVal }: { priceVal: number }) => {
     const heightVal = priceVal * 2
     return (
         <div className="flex flex-col items-center justify-end align-text-bottom">
@@ -10,4 +10,4 @@ const ChartValue = ({ priceVal }: { priceVal: number }) => {
     );
 };
 
-export default ChartValue;
+export default RicePriceChart;
